@@ -1,0 +1,33 @@
+country_event = {
+	id = 500040
+	title = "asss5"
+	desc = "EVTDESCFRENCHCOLONIESCASKO"
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {  #change to a french canada
+		name = "EVTOPTFRENCHCOLONIESCASKOA"
+        change_tag = QUE
+        CAN = {
+            CAN = { all_core = { add_core = QUE remove_core = CAN remove_core = NEW remove_core = RPL remove_core = MRU } }
+        }
+        QUE = {
+            inherit = RPL
+            primary_culture = french_canadian
+            add_accepted_culture = french
+            add_accepted_culture = anglo_canadian
+            capital = 65
+        }
+    }
+	option = {  #stick with english canada
+		name = "EVTOPTFRENCHCOLONIESCASKOA"
+    }
+}
+
+
+
+
+
+
+

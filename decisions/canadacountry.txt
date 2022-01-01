@@ -1,0 +1,17 @@
+political_decisions = {
+	canada_counrty_option = {
+        alert = yes
+        potential = {
+            tag = CAN
+            ai = no
+            NOT = { has_global_flag = canadacountrychoicepicked }
+            NOT = { year = 1837 }
+        }
+        allow = {
+        }
+        effect = {
+            set_global_flag = canadacountrychoicepicked
+            country_event = 500040
+        }
+    }
+}
