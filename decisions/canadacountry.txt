@@ -1,16 +1,16 @@
 political_decisions = {
-	canada_counrty_option = {
+	canada_nation_choice = {
         alert = yes
         potential = {
             tag = CAN
             ai = no
-            NOT = { has_global_flag = canadacountrychoicepicked }
+            NOT = { has_global_flag = canada_nation_picked }
             NOT = { year = 1837 }
         }
         allow = {
         }
         effect = {
-            set_global_flag = canadacountrychoicepicked
+            set_global_flag = canada_nation_picked
             country_event = 500040
         }
     }

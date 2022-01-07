@@ -25,9 +25,56 @@ country_event = {
     }
 }
 
+2593 = { state_scope = { change_region_name = "Nord-du-Québec" } }
+            65 = { change_province_name = "Québec" state_scope = { change_region_name = "Québec" } }
+            58 = { change_province_name = "Montréal" }
+            63 = { change_province_name = "Témiscaming" }
+            70 = { change_province_name = "Île Saint-Jean" }
+            73 = { change_province_name = "Île-Royale" }
+            71 = { state_scope = { change_region_name = "Acadie" } }
 
 
 
+
+CAN_58 = { assimilate = yes }
+			CAN_46 = { assimilate = yes }
+
+
+            Colombie-Britannique
+            Nouvel-Ontario
+            le Nord de l'Ontario and Ontario-Nord
+            Odawa #ottawa
+            Le Manitoba
+            Le Nouveau-Brunswick
+            La Nouvelle-Écosse #nova scotia
+            La Saskatchewan
+            L'Ontario
+            L'Alberta
+            Terre-Neuve-et-Labrador #newfoundland & labrador
+            Territoires du Nord-Ouest
+            Saskatchewan
+            L’île de Vancouver
+            Fort Frontenac #kingston
+            Fort Rouillé #toronto
+            Sainte Anne
+            Fort Menagoueche #fredericton
+            Fort Boishebert #turro
+            Fort Anne #halifax
+            Fort Saint Louis #st johns
+            Fort Rouge #winnipeg
+            Île-Royale #cape breton
+            Isle Saint-Jean #pei
+            la Petite Côte #windsor
+            Tinawatawa #hamilton
+            Maqtukwek #millertown
+            Nottawasaga #barrie
+            Kaministiquia #thunderbay
+            Fort Lac la Pluie #dryden
+            Fort des Français Fort Ste. Anne Fort Lac à la Carpe #fort albany
+            Waskaganish #fort rupert
+            Post des Outaouais #ottawa
+            Fort Népigon #pickle
+            Fort Neuve-Savane #fort severn
 
 
 

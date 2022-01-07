@@ -1,0 +1,33 @@
+canada_nation_choice_title;The Quebec Question;;;;;;;;;;;;;
+canada_nation_choice _desc;Reclaiming Quebec and British controlled Acadia will be our first major goal of reuniting the overseas French. However, before we resort to all-out warfare to reclaim our former American colonies, we must try our hand at diplomacy first - if we offer a large sum of money, as well as agreeing to ignore British 'goals' elsewhere, we may be able to regain Quebec without a war.;;;;;;;;;;;;;
+canadachoice_EVTNAME500040;Time to choose your path.;;;;;;;;;;;;;
+canadachoice_EVTDESC500040;Time to choose your path.;;;;;;;;;;;;;      
+canadachoice_EVTOPT500041;Vive la France!;;;;;;;;;;;;;
+canadachoice_
+
+
+
+
+EVTNAME7790010;
+
+
+
+
+EVTOPT7790010;Vive la France!;;;;;;;;;;;;;
+
+
+
+
+
+QUE;Canada;;;;;;;;;;;;;
+QUE_colonial_company;Dominion du Canada;;;;;;;;;;;;;
+QUE_dominion;Dominion du Canada;;;;;;;;;;;;;
+QUE_absolute_monarchy;Dominion du Canada;;;;;;;;;;;;;
+QUE_prussian_constitutionalism;Dominion du Canada;;;;;;;;;;;;;
+QUE_hms_government;Dominion du Canada;;;;;;;;;;;;;
+QUE_democracy;Republique du Canada;;;;;;;;;;;;;
+QUE_proletarian_dictatorship;Republique socialiste du Canada;;;;;;;;;;;;;
+QUE_presidential_dictatorship;Republique du Canada;;;;;;;;;;;;;
+QUE_parliamentary_republic;Republique du Canada;;;;;;;;;;;;;
+QUE_fascist_dictatorship;Republique du Canada;;;;;;;;;;;;;
+QUE_ADJ;Canadien;;;;;;;;;;;;;
