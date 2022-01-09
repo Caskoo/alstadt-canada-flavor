@@ -2,10 +2,12 @@
 #CANADA Events;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 canada_nation_choice_title;§RThe Quebec Question§R;;;;;;;;;;;;;
-canada_nation_choice_desc;In an alternate timeline.;;;;;;;;;;;;;
+canada_nation_choice_desc;A flavor decsion that allows you to become quebec.;;;;;;;;;;;;;
 canadachoice_EVTNAME500040;Time to choose your path.;;;;;;;;;;;;;
-canadachoice_EVTDESC500040;Time to choose your path.;;;;;;;;;;;;;      
-canadachoice_EVTOPT500041;Vive la France!;;;;;;;;;;;;;
+canadachoice_EVTDESC500040;Time to choose your path.;;;;;;;;;;;;;
+canadachoice_EVTNAME500043;Province Renaming.;;;;;;;;;;;;;
+canadachoice_EVTDESC500043;Province Renaming.;;;;;;;;;;;;;    
+canadachoice_EVTOPT500041;Vive la Quebec!;;;;;;;;;;;;;
 canadachoice_EVTOPT500042;We stay british!;;;;;;;;;;;;;
 QUE;Canada;;;;;;;;;;;;;
 QUE_colonial_company;Dominion du Canada;;;;;;;;;;;;;
