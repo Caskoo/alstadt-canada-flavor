@@ -29,72 +29,40 @@ country_event = {
 	id = 500043
 	title = "canadachoice_EVTNAME500043"
 	desc = "canadachoice_EVTDESC500043"
-	major = yes
 	is_triggered_only = yes
 	fire_only_once = yes
-
 	option = {  
-		name = "canadachoice_EVTOPT500041"
-        QUE = {
-            #province names
-            46 = { change_province_name = "Rouille" } #toronto
-            47 = { change_province_name = "Fort Neuve-Savane" } #fortseven
-            48 = { change_province_name = "Fort des Francais" } #fortalbany
-            49 = { change_province_name = "Lac la Pluie" } #dryden
-            50 = { change_province_name = "Kaministiquia" } #thunderbay
-            53 = { change_province_name = "Nottawasaga" } #barrie
-            54 = { change_province_name = "la Petite Cote" }  #windsor
-            55 = { change_province_name = "Tinawatawa" } #hamilton
-            56 = { change_province_name = "Frontenac" } #kingston
-            57 = { change_province_name = "Odawa" } #ottawa
-            58 = { change_province_name = "Montreal" } #montreal
-            60 = { change_province_name = "Fort des Francais" } #fort rupert
-            68 = { change_province_name = "Menagoueche" } #fredericton
-            69 = { change_province_name = "Sainte Anne" } #bathurst
-            70 = { change_province_name = "Isle Saint-Jean" } #PEI
-            71 = { change_province_name = "Fort Anne" } #halifax
-            72 = { change_province_name = "Boishebert" } #turo            
-            73 = { change_province_name = "Ile-Royale" } #cape breton
-            74 = { change_province_name = "Saint Louis" } #saint johns
-            75 = { change_province_name = "Maqtukwek" } #millertown
-            2594 = { change_province_name = "Fort Nepigon" } #pickle
-            #ENG_6 = { change_region_name = "Québec" }#norf
-            #ENG_9 = { change_region_name = "Québec" }#norf
-            #ENG_43 = { change_region_name = "Québec" }#norf
-            #ENG_13 = { change_region_name = "Colombie-Britannique" }#britishcolumbia
-            #ENG_22 = { change_region_name = "L'Alberta" }#alberta
-            #ENG_30 = { change_region_name = "Québec" }#saskat
-            #ENG_36 = { change_region_name = "Québec" }#manitoba
-            #ENG_46 = { change_region_name = "Québec" }#ontario
-            #ENG_58 = { change_region_name = "Québec" }#quebec
-            #ENG_74 = { change_region_name = "Terre-Neuve-et-Labrador" }#newfoundland &labrador
-            #ENG_68 = { change_region_name = "Acadie" }#maritimes
-        }
+	name = "canadachoice_EVTOPT500041"
+        #province names
+        13 = { change_province_name = "Nouvelle-Paris" state_scope = { change_region_name = "Colombie" } } #vancouver
+        14 = { change_province_name = "Nouvelle Ile de Paris" } #vancouver island
+        15 = { change_province_name = "Napoleon" } #prince Rupert
+        19 = { change_province_name = "Bourbon" } #prince george
+        32 = { change_province_name = "Louis Bonaparte" } #prince albert   
+        33 = { change_province_name = "Lord Asquith" } 
+        37 = { change_province_name = "La Perouse" state_scope = { change_region_name = "Prairies" } } #churchhill
+        41 = { change_province_name = "Fort Qu'Appelle" }
+        46 = { change_province_name = "Rouille" assimilate = yes } #toronto
+        47 = { change_province_name = "Fort Neuve-Savane" } #fortseven
+        48 = { change_province_name = "Fort des Francais" } #fortalbany
+        49 = { change_province_name = "Lac la Pluie" } #dryden
+        50 = { change_province_name = "Kaministiquia" } #thunderbay
+        53 = { change_province_name = "Nottawasaga" assimilate = yes } #barrie
+        54 = { change_province_name = "la Petite Cote" assimilate = yes }  #windsor
+        55 = { change_province_name = "Tinawatawa" assimilate = yes } #hamilton
+        56 = { change_province_name = "Frontenac" assimilate = yes } #kingston
+        57 = { change_province_name = "Odawa" assimilate = yes } #ottawa
+        58 = { change_province_name = "Montreal" assimilate = yes } #montreal
+        60 = { change_province_name = "Fort des Francais" } #fort rupert
+        68 = { change_province_name = "Menagoueche" assimilate = yes } #fredericton
+        69 = { change_province_name = "Sainte Anne" assimilate = yes } #bathurst
+        70 = { change_province_name = "Isle Saint-Jean" assimilate = yes } #PEI
+        71 = { change_province_name = "Fort Anne" assimilate = yes } #halifax
+        72 = { change_province_name = "Boishebert" assimilate = yes } #turo            
+        73 = { change_province_name = "Ile-Royale" assimilate = yes state_scope = { change_region_name = "Acadie" } } #cape breton
+        74 = { change_province_name = "Saint Louis" assimilate = yes state_scope = { change_region_name = "Terre-Neuve-et-Labrador" } } #saint johns
+        75 = { change_province_name = "Maqtukwek" assimilate = yes } #millertown
+        2594 = { change_province_name = "Mishkeegogamang" } #pickle
+        2626 = { change_province_name = "Inukjuak" }
     }
 }
-country_event = {
-	id = 500044
-	title = "canadachoice_EVTNAME500043"
-	desc = "canadachoice_EVTDESC500043"
-	major = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {  
-		name = "canadachoice_EVTOPT500044"
-        QUE = {
-            #ENG_6 = { change_region_name = "Québec" }#norf
-            #ENG_9 = { change_region_name = "Québec" }#norf
-            #ENG_43 = { change_region_name = "Québec" }#norf
-            #ENG_13 = { change_region_name = "Colombie-Britannique" }#britishcolumbia
-            #ENG_22 = { change_region_name = "L'Alberta" }#alberta
-            #ENG_30 = { change_region_name = "Québec" }#saskat
-            #ENG_36 = { change_region_name = "Québec" }#manitoba
-            #ENG_46 = { change_region_name = "Québec" }#ontario
-            #ENG_58 = { change_region_name = "Québec" }#quebec
-            #ENG_74 = { change_region_name = "Terre-Neuve-et-Labrador" }#newfoundland &labrador
-            #ENG_68 = { change_region_name = "Acadie" }#maritimes
-        }
-    }
-}
-#assimilate = yes

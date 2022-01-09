@@ -2,7 +2,7 @@ country_event = {
 
 	id = 44300
 	trigger = {
-		tag = CAN 
+		OR = { tag = CAN tag = QUE }
 		year = 1872
 		owns = 13 #Vancouver BC
 		owns = 57 #Ottawa ON
@@ -72,7 +72,7 @@ country_event = {
 
 	id = 44301
 	trigger = {
-		tag = CAN 
+		OR = { tag = CAN tag = QUE }
 		year = 1868
 		owns = 36 #Winnipeg MB
 		owns = 57 #Ottawa ON
@@ -149,10 +149,9 @@ country_event = {
 }
 
 country_event = {
-
 	id = 44302
 	trigger = {
-		tag = CAN 
+		OR = { tag = CAN tag = QUE }
 		year = 1884
 		owns = 57 #Ottawa ON
 		OR = {
