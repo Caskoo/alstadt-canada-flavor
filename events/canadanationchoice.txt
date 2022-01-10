@@ -14,7 +14,6 @@ country_event = {
         QUE = {
             #inherit = RPL igor
             primary_culture = french_canadian
-            add_accepted_culture = french
             add_accepted_culture = anglo_canadian
             capital = 65 #change the capital to quebec city
             THIS = { country_event = 500043 }
@@ -53,6 +52,7 @@ country_event = {
         57 = { change_province_name = "Odawa" assimilate = yes } #ottawa
         58 = { change_province_name = "Montreal" assimilate = yes } #montreal
         60 = { change_province_name = "Fort des Francais" } #fort rupert
+        66 = { assimilate = yes }
         68 = { change_province_name = "Menagoueche" assimilate = yes } #fredericton
         69 = { change_province_name = "Sainte Anne" assimilate = yes } #bathurst
         70 = { change_province_name = "Isle Saint-Jean" assimilate = yes } #PEI
